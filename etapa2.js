@@ -2,7 +2,7 @@ let autos = require("./autos");
 
 let concesionaria = {
    auto: autos,
-   buscarAuto: function(patentebuscada){
+   buscarAuto: function ppp (patentebuscada){
     for (let i = 0; i <= autos.length; i++) {
         switch(patentebuscada){
             case (autos[i].patente):
@@ -12,10 +12,8 @@ let concesionaria = {
             default:
                 return null;
         }
-            
         }
-        
-    }
-   }
+        }
+        };
 
-console.log (concesionaria.buscarAuto('JJK116'))      
+        
