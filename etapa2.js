@@ -15,5 +15,16 @@ let concesionaria = {
         }
         }
         };
+        /* venderCarro : function venderAuto (patentebuscada){
+            this.buscarAuto(patentebuscada).vendido = true;
+            return this.buscarAuto(patentebuscada);
+       }
+         */
 
-        
+     /*   venderAuto : function (patentebuscada){
+        let autoBuscado = this.buscarAuto(patentebuscada);
+        if (autoBuscado != null){  
+        autoBuscado.vendido = true
+        }
+   }
+} */
